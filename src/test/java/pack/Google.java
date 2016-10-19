@@ -14,7 +14,7 @@ public class Google {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.get("http://www.google.com");
 		String title = driver.getTitle();
-		System.out.println("The title of the page is"+title);
+		System.out.println("The title of the page is "+title);
 		driver.quit();
 			
 		
