@@ -15,7 +15,7 @@ public class Google {
 		driver.get("http://www.google.com");
 		String title = driver.getTitle();
 		System.out.println(title);
-		driver.close();
+		driver.quit();
 			
 		
 	}
